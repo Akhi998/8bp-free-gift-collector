@@ -25,3 +25,4 @@
 
 | Date | Rewards |
 | :---: | :---: |
+| 6/17/2025 | <img src="https://prod-hub-config.8ballpool.com/assets/9c3on9Ay37VxqarH5JWtZSSm3RwWI0WkGBvWT8K6w7WwyCHjK77B3rKsSkIodsXeMuXHBn-12mZIwpOx9Pwnzw~KUwhB6gLKSYWKxGDA22_QOkH9q1UJfC3KUBmQ3EEmYI.png" height="25" alt="Bronze Random Collection Box"/> Bronze Random Collection Box x1; <img src="https://prod-hub-config.8ballpool.com/assets/mNnZWuEOnaxrZiFEn0apCZsaxydrm7_45_rCxX7ipZjrua-KLdMHlxKeu77TZwEAUZCsVA52ZIKsmXiDVeUwVQ~kx0MT45xRtcGPIPCqrnGTAezM0yQc5Ind0hQgvrI-xc.png" height="25" alt="Power Break Cue Piece"/> Power Break Cue Piece x1 |
