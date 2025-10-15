@@ -2,7 +2,7 @@ name: Collect free Gifts
 
 on:
   schedule:
-    - cron: "30 5 * * *" # 11:00 AM IST
+    - cron: "29 6 * * *" # 11:59 AM IST
   workflow_dispatch:
 
 permissions:
