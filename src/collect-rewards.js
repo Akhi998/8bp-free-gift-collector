@@ -25,17 +25,15 @@ export const collectRewards = async (userUniqueID) => {
   logger("info", `🌐 Navigating to ${pageUrl}`);
   await page.goto(pageUrl, { waitUntil: "networkidle2" });
 
-  const loginButton = await page.waitForSelector(
-    'button.m-button', { timeout: 60000 },
-    { visible: true }
-  );
+  const loginButton = await page.waitForSelector('button.m-button', {
+    visible: true,
+    timeout: 60000
+  });
   if (loginButton) {
     await loginButton.click();
-    await page.type('input[data-testid="input-unique-id"]', userUniqueID, {
-      delay,
-    });
+    await page.type('input.user-id-input', userUniqueID, { delay });
     const goButton = await page.waitForSelector(
-      'button[data-testid="btn-user-go"]'
+      'button.m-button'
     );
     await goButton.click();
     logger("success", "✅ User logged in.");
