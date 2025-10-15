@@ -26,7 +26,7 @@ export const collectRewards = async (userUniqueID) => {
   await page.goto(pageUrl, { waitUntil: "networkidle2" });
 
   const loginButton = await page.waitForSelector(
-    'button[data-testid="btn-login-modal"]',
+    'button.m-button', { timeout: 60000 },
     { visible: true }
   );
   if (loginButton) {
